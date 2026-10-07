@@ -42,28 +42,25 @@ A desktop-based scholarship management application developed using Java, JavaFX,
 - MySQL
 - Eclipse
 
+
 ## Project Structure
 
-StudentScholarshipSystem
-│
-├── src
-│   ├── application
-│   │   └── Main.java
-│   │
-│   ├── application.controller
-│   │   ├── ApplicationController.java
-│   │   ├── ScholarshipController.java
-│   │   └── StudentController.java
-│   │
-│   ├── application.database
-│   │   └── DBConnection.java
-│   │
-│   ├── application.model
-│   │   ├── Scholarship.java
-│   │   ├── ScholarshipApplication.java
-│   │   └── Student.java
-│   │
-│   └── module-info.java
+### Application
+- Main.java
+- module-info.java
+
+### Controllers
+- StudentController.java
+- ScholarshipController.java
+- ApplicationController.java
+
+### Database
+- DBConnection.java
+
+### Models
+- Student.java
+- Scholarship.java
+- ScholarshipApplication.java
 
 The application uses MySQL with three main tables:
 
