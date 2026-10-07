@@ -65,8 +65,6 @@ StudentScholarshipSystem
 │   │
 │   └── module-info.java
 
-## Database
-
 The application uses MySQL with three main tables:
 
 1. students
