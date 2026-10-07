@@ -137,62 +137,6 @@ Pending
     ↓
 Approve / Reject
 
-## How to Run
-
-### 1. Clone the Repository
-
-git clone https://github.com/NeoElvinS/StudentScholarshipSystem.git
-
-### 2. Open in Eclipse
-
-Import the project into Eclipse as an existing Java project.
-
-### 3. Configure MySQL
-
-Create the database:
-
-CREATE DATABASE scholarship_db;
-
-Then create the required tables:
-
-- students
-- scholarships
-- applications
-
-### 4. Configure Database Connection
-
-Open:
-
-application.database → DBConnection.java
-
-Update the MySQL credentials:
-
-private static final String URL =
-        "jdbc:mysql://localhost:3306/scholarship_db";
-
-private static final String USER = "root";
-
-private static final String PASSWORD =
-        "your_password";
-
-Replace "your_password" with your local MySQL password.
-
-Do not upload your actual database password to GitHub.
-
-### 5. Add MySQL Connector
-
-Add the MySQL Connector/J library to the Eclipse project and ensure the JDBC module is available to the application.
-
-### 6. Run the Application
-
-Open:
-
-application → Main.java
-
-Right-click Main.java and select:
-
-Run As → Java Application
-
 ## Project Objective
 
 The main objective of this project is to provide a simple database-driven system for managing student scholarship information, checking eligibility, processing applications, and maintaining application status efficiently.
@@ -221,8 +165,6 @@ The main objective of this project is to provide a simple database-driven system
 ## Author
 
 Neo Elvin S
-
-B.Tech Artificial Intelligence and Data Science
 
 ## License
 
